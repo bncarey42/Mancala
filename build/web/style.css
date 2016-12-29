@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2016, 9:18:08 PM
+    Author     : ben
+*/
+html{
+    background-color: #b5c7dd;
+    text-align: center;
+    color: #6b6d76;
+}
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+.pits{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.home{
+    width:100px;
+    text-align: center;
+}
+#p1{
+    background-color: #7fb685;
+}
+#p2{
+    background-color: #f2c57c;
+}
+
+.player1 td{
+    background-color: #7fb685;
+}
+
+.player2 td{
+    background-color: #f2c57c;
+}
+
+h1{
+    font-family: 'Bungee', cursive;
+    font-size: 5em;
+    color: #426a5a;
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.scorecard{
+    background-color: white;
+    margin-left: 35em;
+    margin-right: 35em;
+    border: 5px;
+    border-color: #6b6d76;
+    color: #6b6d76;
+}
+
+.scorecard #player1{
+    color: #7fb685;
+}
+
+.scorecard #player2{
+    color: #f2c57c;
+}
+
+.scorecard #turnNum{
+    color: #ef6f6c;
+}
+
+.gameboard{
+    background-color: #bbb193;
+    margin-left: 25em; 
+    margin-right: 25em;
+}
+
+.main{
+    margin-left: 5em; 
+    margin-right: 5em;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.main table td{
+    border: 2px solid #6b6d76;
+    border-spacing: 2px;
+}
+
+.win{
+    background-color: white;
+    text-align: center;
+}
+#itsOverMsg{ 
+    color: #ef6f6c;
+}
+
+.disc{
+    text-align: center;
+}
+
+.rules{
+    padding: 15%;
+    padding-top: 0%;
+    padding-bottom: 25px;
+}
+
+.rulesList{
+    text-align: left;
+}
+
+.button{
+    border: 2px #426a5a solid;
+    color: #ef6f6c;
+    font-family: 'Bungee', cursive;
+    border-radius: 25px;
+    background-color: white; 
+    padding: 1em;
+    text-decoration: none;
+}
+.bye{
+    padding-bottom: 25px;
+}
